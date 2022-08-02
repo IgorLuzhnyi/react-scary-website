@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-scary-website/static/css/main.563906f3.css",
+    "main.js": "/react-scary-website/static/js/main.3f9d6292.js",
+    "index.html": "/react-scary-website/index.html",
+    "main.563906f3.css.map": "/react-scary-website/static/css/main.563906f3.css.map",
+    "main.3f9d6292.js.map": "/react-scary-website/static/js/main.3f9d6292.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.563906f3.css",
+    "static/js/main.3f9d6292.js"
+  ]
+}
