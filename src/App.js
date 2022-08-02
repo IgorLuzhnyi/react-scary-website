@@ -1,3 +1,4 @@
+import { HashRouter } from "react-router-dom";
 import { BrowserRouter as Router, HashRouter, Route } from "react-router-dom";
 import ContactData from "./components/ContactData";
 import Contracts from "./components/Contracts";
