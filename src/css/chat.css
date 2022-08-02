@@ -1,0 +1,42 @@
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.my-msg,
+.friend-msg {
+  margin: 10px 0;
+  max-width: 300px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  list-style-type: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.sender {
+  font-size: 24px;
+  color: rgb(16, 109, 214);
+  margin-bottom: 5px;
+}
+
+.chat_text {
+  color: rgb(56, 58, 59);
+}
+
+.my-msg {
+  background-color: rgb(155, 192, 235);
+  margin-left: auto;
+}
+
+.friend-msg {
+  background-color: rgb(118, 201, 152);
+}
+
+@media screen and (max-width: 1052px) {
+  .my-msg {
+    margin-left: 0;
+  }
+}
