@@ -1,6 +1,5 @@
 import { Component } from "react";
-import { contacts } from "../constants/constants";
-import Header from "./Header";
+import { contacts } from "../../constants/constants";
 import Message from "./Message";
 
 export default class ContactData extends Component {
@@ -10,9 +9,6 @@ export default class ContactData extends Component {
 
     return (
       <div>
-        <div>
-          <Header url="/" />
-        </div>
         <div className="contact-data_wrapper">
           <div className="contact_general-info">
             <div className="contact_general-info_wrapper">

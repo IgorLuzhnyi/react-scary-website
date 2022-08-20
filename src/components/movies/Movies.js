@@ -1,14 +1,10 @@
 import { Component } from "react";
-import { fav_movies_posters } from "../constants/constants";
-import Header from "./Header";
+import { fav_movies_posters } from "../../constants/constants";
 
 export default class Movies extends Component {
   render() {
     return (
       <div>
-        <div>
-          <Header url="/" />
-        </div>
         <div>
           <h1>My fav movies :3</h1>
           <div className="movies_container">

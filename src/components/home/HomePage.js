@@ -1,13 +1,9 @@
 import { Component } from "react";
-import Header from "./Header";
 
 export default class HomePage extends Component {
   render() {
     return (
       <div>
-        <div>
-          <Header url="/" />
-        </div>
         <div className="home_container">
           <div className="home-intro">
             <img

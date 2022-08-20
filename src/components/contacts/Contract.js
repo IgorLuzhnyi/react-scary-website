@@ -1,5 +1,5 @@
 import { BsGenderFemale, BsGenderMale } from "react-icons/bs";
-import { MALE_COLOR, FEMALE_COLOR } from "../constants/constants";
+import { MALE_COLOR, FEMALE_COLOR } from "../../constants/constants";
 import { Link } from "react-router-dom";
 
 const Contract = ({ candidate }) => {

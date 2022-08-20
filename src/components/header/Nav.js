@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { NavLink } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default class Nav extends Component {
   render() {

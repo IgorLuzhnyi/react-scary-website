@@ -1,14 +1,16 @@
-import { HashRouter, Route, Switch } from "react-router-dom";
-import ContactData from "./components/ContactData";
-import Contracts from "./components/Contracts";
-import HomePage from "./components/HomePage";
-import Movies from "./components/Movies";
-import Posts from "./components/Posts";
+import { HashRouter, Route } from "react-router-dom";
+import ContactData from "./components/contacts/ContactData";
+import Contracts from "./components/contacts/Contracts";
+import Header from "./components/header/Header";
+import HomePage from "./components/home/HomePage";
+import Movies from "./components/movies/Movies";
+import Posts from "./components/posts/Posts";
 
 function App() {
   return (
     <div className="App">
       <HashRouter>
+        <Route path="/" component={Header} />
         <Route path="/" exact component={HomePage} />
         <Route path="/posts" component={Posts} />
         <Route path="/movies" component={Movies} />

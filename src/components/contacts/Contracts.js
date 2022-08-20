@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import Header from "./Header";
-import { MALE_COLOR, FEMALE_COLOR, DARK_GREY } from "../constants/constants";
+import { MALE_COLOR, FEMALE_COLOR, DARK_GREY } from "../../constants/constants";
 import { BsGenderFemale, BsGenderMale, BsQuestionLg } from "react-icons/bs";
-import { contacts } from "../constants/constants";
+import { contacts } from "../../constants/constants";
 import Contract from "./Contract";
 
 function Contracts() {
@@ -40,9 +39,6 @@ function Contracts() {
 
   return (
     <div>
-      <div>
-        <Header url="/" />
-      </div>
       <div className="candidates-wrapper">
         <h1>Guys in my list</h1>
         <div className="input-wrapper">
